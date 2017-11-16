@@ -2,7 +2,9 @@
 
 
   .header-content {
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
   footer span {
@@ -20,6 +22,9 @@
   .form {
     width: 100%;
   }
+
+  input[type=submit] {
+    width: 6em;
 
 }
 

@@ -1,4 +1,16 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
 
+  .header-content {
+    flex-wrap: wrap;
+  }
+
+
+  footer span {
+    font-size: 0.75em
+  }
+
+  footer a {
+    font-size: 0.95em;
+  }
 
 }

@@ -4,11 +4,12 @@ GENERAL
 
 * {
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+
 }
 
 body {
   margin: 0 auto;
+  font-family: 'Rubik', sans-serif;
 }
 
 
@@ -56,28 +57,28 @@ HEADER
 }
 
 
-nav.first-navigation ul {
+.first-navigation ul {
   padding-left: 0;
 }
 
-nav.first-navigation ul li {
+.first-navigation ul li {
   list-style: none;
   display: inline-block;
   margin-right: 10px;
   font-size: 1.25em;
 }
 
-nav.first-navigation a {
+.first-navigation a {
   text-transform: uppercase;
   font-weight: 400;
 }
 
-nav.first-navigatio a:link,
-nav.first-navigatio a:visited {
+.first-navigation a:link,
+.first-navigation a:visited {
   color: #555555;
 }
 
-nav.first-navigatio a:hover {
+.first-navigation a:hover {
   color: #3CDBC0;
   text-decoration: underline;
 }
@@ -106,6 +107,17 @@ PAGE: HOME
   color: #555555;
 }
 
+
+/* SECTION PHOTOS */
+
+.descriptions {
+  display: flex;
+  justify-content: center;
+}
+
+.person {
+  width: 25%;
+}
 
 /* ==========================
 PAGE: CONTACT FORM
@@ -235,11 +247,11 @@ MEDIA QUERIES
     padding-top: 2px;
   }
 
-  nav.first-navigation a {
+  .first-navigation a {
     font-size: 0.7em;
   }
 
-  nav.first-navigation ul {
+  .first-navigation ul {
     margin-top: 0px;
     margin-bottom: 2px;
   }
@@ -248,10 +260,9 @@ MEDIA QUERIES
     padding-top: 150px;
     margin-left: 20px;
     font-size: 1.5em;
-    color: white;
   }
 
-}
+
     /* FORM */
 
     .main-contact p {
@@ -275,7 +286,7 @@ MEDIA QUERIES
       font-size: 0.95em;
     }
 
-
+}
 
     @media screen and (max-width:768px) {
 
@@ -289,3 +300,4 @@ MEDIA QUERIES
         width: 100%;
 
       }
+}
